@@ -1,0 +1,13 @@
+train: /content/drive/Shareddrives/lab1/yolo/train
+val: /content/drive/Shareddrives/lab1/yolo/valid
+test: /content/drive/Shareddrives/lab1/yolo/test
+
+nc: 5
+names: ['Vehicle', 'bike', 'motorbike', 'traffic_light', 'traffic_sign']
+
+roboflow:
+  workspace: dl-ce4io
+  project: lab-sxrdi
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/dl-ce4io/lab-sxrdi/dataset/1
